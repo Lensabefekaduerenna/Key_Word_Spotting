@@ -27,7 +27,7 @@
 
 <b>Next I'll Use a USB cable to connect the Arduino Nano 33 BLE Sense to my machine. I should see the green LED power indicator come on when the board first receives power.</b>
 - I will first Select the Arduino Nano 33 BLE as the board by going to Tools → Board: <Current Board Name> → Arduino Mbed OS Boards (nRF52840) → Arduino Nano 33 BLE.
-- Then, I'll select the USB Port associated with my board. This will appear differently on Windows, macOS, Linux, but will likely indicate ‘Arduino Nano 33 BLE” in parenthesis. I'll select this by going to Tools → Port: <Current Port (Board on Port)> → <TBD Based on OS> (Arduino Nano 33 BLE). Where <TBD Based on OS> is most likely to come from the list below where <#> indicates some integer number.
+- Then, I'll select the USB Port associated with my board. This will appear differently on Windows, macOS, Linux, but will likely indicate ‘Arduino Nano 33 BLE” in parenthesis. I'll select this by going to Tools → Port: "COM3" → COM3(Arduino Nano 33 BLE).
 - Use the rightward arrow next to the ‘upload’ / flash the code. I know now the upload is complete when I see red text in the console at the bottom of the IDE that shows 100% upload of the code.
 - I should now have a working Keyword Spotting model for “Yes” and “No” deployed to my Arduino! To test it out, I'll open the Serial Monitor. I should start to see the result of the model “Yes, No, Unknown, Silence” begin to display in the Serial Monitor.
 
